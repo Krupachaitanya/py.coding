@@ -1,0 +1,21 @@
+ """" define a class named circle which can be constructed by radius the circle class has a method which can compute the area .""""
+
+	INPUT:
+ 
+ class circle ():
+ def_init_(self,r):
+ self radius=r
+ def area (self):
+ return self . radius **2* .14
+ def perimeter (self):
+ return 2* self.radius *3.14
+ new circle = circle (8)
+ print (new circle . area ())
+ print (new circle . perimeter ())
+ 
+
+ 	OUTPUT:
+ 
+ 200.96
+ 50.24
+ 

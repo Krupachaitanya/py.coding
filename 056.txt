@@ -1,0 +1,13 @@
+ """ please ralse a runtime error exception."""
+
+	INPUT:
+
+ while true print (" hello world")
+ file "<stolin>", line 1
+ while true print ('hello world')
+ 1 1 1 1 ^
+ syntax error : invalid syntax
+
+	OUTPUT:
+
+ invalid syntax . (syntax error)

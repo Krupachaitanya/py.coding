@@ -1,0 +1,16 @@
+ """ define a class named american which has a static method called print nationality."""
+ 
+	INPUT:
+
+ class american ( object ):
+ @ static method
+ def printnationality():
+ print ("american ")
+ dn america = american()
+ dn america print nationality()
+ american. printnationality()
+ 
+	OUTPUT:
+
+ America
+ America

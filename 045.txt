@@ -1,0 +1,12 @@
+"""Wriete a program which can filter() to make a list whose elements are even  number between 1 and 20(both included)."""
+
+ 	INPUT:
+ 
+ def even(X):
+	return x/2 ==0
+ even number = filter (even ,range(1,21))
+ print (list (even numbers))
+
+	OUTPUT:
+ 
+ [2,4,6,8,10,12,14,16,18,20]

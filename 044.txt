@@ -1,0 +1,13 @@
+"""write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,,4,5,6,7,8,9,10]."""
+
+	INPUT:
+ def even (x):
+  return x/2 ==0
+ def square (x);
+  return x*x
+ Li={1,2,3,4,5,6,7,8,9,10]
+ Li =map(square; filter (even ,Li)
+ print (list(Li))
+
+ 	OUTPUT:
+ [4,16,36,64,100]

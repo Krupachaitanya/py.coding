@@ -1,0 +1,18 @@
+ """ define a class named rectangle which can be constructed by a length and width the rectangle  class has a method which can compute area .""""
+ 
+	INPUT:
+
+ class rectangle ():
+ def-inti_(self ,l, w):
+ saelf.length = 1
+ self .width = w
+ def rectangle _ area (self):
+ return self . length * self . width
+ new rectangle = rectangle ( 12, 10)
+ print ( new rectangle . rectangle _ area ())
+
+	OUTPUT:
+
+ 12x10
+ = 120
+ 

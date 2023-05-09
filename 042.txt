@@ -1,0 +1,16 @@
+ """ write a program which accepts a string as input to print " yes " if the string is " yes " or " yes " or " yes " , otherwise print " no "."""
+
+	INPUT:
+ 
+ ''' solution by : seawolf159
+ ''' text = input ("please trype something ---")
+ if text == " yes " or text == " yes " or text == " yes ":
+ print (" yes ")
+ else:
+ print ("no")
+
+	OUTPUT:
+
+ please type something--->
+ no
+ 

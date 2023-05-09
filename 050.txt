@@ -1,0 +1,16 @@
+ """ define a class named and its sub class newyorker."""
+
+ 	INPUT:
+ class america ():
+ pass
+ class newyorker (american):
+ pass
+ american = American()
+ newyorker = newyorker()
+ print(american)
+ print(newyorker)
+
+	OUTPUT:
+
+ <-main - . american object at ox7f01eal6dc310>
+ <- main - . newyorker object at ox7feeal6coob>

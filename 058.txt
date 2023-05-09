@@ -1,0 +1,16 @@
+ """ write function to compute 5/0 and use try /except to catch the exceptions."""
+ 
+		INPUT:
+ 
+ # working of try ()
+ def devide (x,y):
+ result = x//y
+ print (" yeah! your answer is :", result)
+ except zero divison error:
+ print ("sorry! your are dividing by zero")
+ diuvide (3,2)
+ # the program written by btitol
+ 
+	OUTPUT:
+
+ yeah! your answer is :1

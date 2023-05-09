@@ -1,0 +1,39 @@
+ """ find the largest kxk submatrix with all entries 1 in a mxn binary matrix."""
+
+	INPUT:
+
+ def find largest square ( mat ,m,n,maxsize):
+ if m<0 or n<0:
+ return 0, maxsize
+ left , maxsize = find largest square (mat, m,n-1,maxsize)
+ top , maxsize = find largest square (mat,m-1,n,maxsize)
+ diagnol, maxsize = find largest square (mat,m-1,n-1,maxsize)
+ ,,,
+ the largest square matrix ending at mat[m][n] will be 1plus minimum of largest square matrix ending at mat[m][n-1], mat [m-1][n] and mat [m-1][n-1]
+ ,,,
+ size= 1+ min (min(top ,left ),diagnol)if mat [m][n]
+ else
+ return size ,max (mixsize ,size)
+ def find largest sub matrix (mat )-> int:
+ if not mat or not len (mat):
+ return0
+ (m,n) = (ten(mat), len (mat[0]))
+ maxsize = find lardgest square ( mat, m-1,n-1,0)[1]
+ return maxsize
+ if_name_=='_main_':
+ mat = [
+ [0,0,1,0,1,1]
+ [0,1,1,1,0,o]
+ [0,0,1,1,1,1]
+ [1,1,0,1,1,1]
+ [1,1,1,1,1,1]
+ [1,1,0,1,1,1]
+ [1,0,1,1,1,1]
+ [1,1,1,0,1,1]
+ ]
+ print ( " the size of largest square submatrix of 1 s is n,
+ find largest square sub matrix (mat))
+ 
+	OUTPUT:
+  
+ the size of largest square sub matrix of 1 r is 3

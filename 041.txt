@@ -1,0 +1,17 @@
+ """ write a program to generate and print another tuple whose vlues are even numbers in given tuple(1,2,3,4,5,6,7,8,9,10)."""
+
+	INPUT:
+
+ #tuple even numbers 
+ ev.tuple = (1,2,3,4,5,6,7,8,9,10)
+ print (" tuple items =", ev tuple)
+ print ("\n the even numbers in this ev tuple are:")
+ fori in range (len(evtuple)):
+ if (ev tuple [i] %2==0):
+ print (ev tuple[i],and=" ")
+
+	OUTPUT:
+
+ tuple items =(1,2,3,4,5,6,7,8,9,10)
+ the even numbers in this evtuple tuple are >
+ 2 4 6 8 10 >

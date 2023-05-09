@@ -1,0 +1,24 @@
+ """ define a class named shape and its subclass square . the square class has an init function which takes a length as a argument . both classes have a area 
+     function which can print area of the shape where shape's area is 0 by default."""
+ 
+	INPUT:
+
+ class shape ():
+ def_int_(self)
+ pass
+ def area (self):
+ return0
+ class . square ( shape):
+ def_ int_(self,length=0):
+ shape ._init_(self)
+ self  . length = length
+ def area (self):
+ return self . length .*self.length 
+ asqr = square(5)
+ print ( a sqr . area ())
+ print ( square (). area ())
+
+	OUTPUT:
+
+ 25
+ 0 
